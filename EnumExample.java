@@ -18,7 +18,7 @@ public class EnumExample {
                 break;
             default:
                 System.out.println("Unknown color.");
-        }
+        } 
     }
 }
 

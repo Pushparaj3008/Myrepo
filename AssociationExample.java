@@ -7,11 +7,11 @@
         }
     }
 
-    class Student {
+    class Stu {
         String name;
         Department department; // Association
 
-        Student(String name, Department dept) {
+        Stu(String name, Department dept) {
             this.name = name;
             this.department = dept;
         }
@@ -24,7 +24,7 @@
     public class AssociationExample {
         public static void main(String[] args) {
             Department d = new Department("Computer Science");
-            Student s = new Student("Pushparaj", d);
+            Stu s = new Stu("Pushparaj", d);
             s.showDetails();
         }
     }
